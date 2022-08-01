@@ -1,0 +1,2 @@
+# Similar-image-finder
+This system uses an advance image processing techniques to find 9 most similar images to the query image in the image database. It takes histogram of 9 subsections of an image then picks deep features through EfficientNetV2B0. After getting those features it will calculate distance of that query image with other images in the database by cosine similarity, Absolute distance or Euclidian distance.
